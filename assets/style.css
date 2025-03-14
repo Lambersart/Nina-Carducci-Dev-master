@@ -12,8 +12,9 @@
 /* Style de base */
 body {
   max-width: 1920px;
+  box-sizing: border-box;
   margin: auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 /* En-tête */
@@ -114,6 +115,7 @@ span.nav-link.active-tag,
 
 #about-me {
   flex: 2;
+  padding-left: 20px;
 }
 
 .about-me__title {

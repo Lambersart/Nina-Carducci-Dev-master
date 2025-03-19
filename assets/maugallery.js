@@ -150,7 +150,7 @@
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
-      console.log("click ok?");
+      
 
       let activeImage = null;
       $("img.gallery-item").each(function () {
